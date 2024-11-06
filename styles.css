@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    display: block;
+    margin: 0 0 0 0;
+}
+
+section {
+    width: 100%;
+}
+
+.navbar {
+    border-bottom: 2px solid black;
+    position: sticky;
+    display: flex;
+
+}
+
+.nav-item-container {
+    padding: 10px 10px 10px 10px;
+    border-right: 1px solid black;
+}
+
+.nav-item {
+    
+    text-decoration: none;
+}
+
+.nav-link  {
+    text-decoration: none;
+}
+.nav-link:hover {
+    text-decoration: none;
+}
+.nav-link:active {
+    text-decoration: none;
+}
+
