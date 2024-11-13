@@ -1,7 +1,9 @@
 body {
     font-family: sans-serif;
+    color: #303841;
     display: block;
     margin: 0 0 0 0;
+    background-color: #EEEEEE;
 }
 
 section {
@@ -21,7 +23,7 @@ section {
 }
 
 .nav-item {
-    
+    color: inherit;
     text-decoration: none;
 }
 
@@ -35,3 +37,27 @@ section {
     text-decoration: none;
 }
 
+hr {
+    width: 90%;
+    height: 2px;
+    border: none;
+    box-shadow: 1px 1px lightgray;
+    background-color: #FF5722;
+}
+
+.contact-links-div {
+    max-width: 50%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.contact-links-div img {
+    display: inline-block;
+    width: 30px;
+}
+
+
+footer {
+    text-align: center;
+    font-size: x-small;
+}
