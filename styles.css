@@ -3,18 +3,24 @@ body {
     color: #303841;
     display: block;
     margin: 0 0 0 0;
+    
+}
+
+#main {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 10px 0 3px 0;
     background-color: #EEEEEE;
 }
 
-section {
-    width: 100%;
-}
-
 .navbar {
+    margin-bottom: 0;
     border-bottom: 2px solid black;
+    color: #EEEEEE;
     position: sticky;
     display: flex;
-
+    width: 100%;
+    background-image: linear-gradient(180deg, rgb(255, 87, 34) 50%, rgb(48, 56, 65));
 }
 
 .nav-item-container {
@@ -43,6 +49,31 @@ hr {
     border: none;
     box-shadow: 1px 1px lightgray;
     background-color: #FF5722;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header p {
+    margin-top: 0xp;
+}
+
+.profile-container {
+    width: 100%;
+    text-align: center;
+}
+
+.profile-container h6, .profile-container p {
+    display: inline;
+}
+
+ul {
+    text-align: left;
+    max-width: fit-content;
+    margin: 0 auto;
 }
 
 .contact-links-div {
