@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: sans-serif;
     font-size: x-large;
@@ -6,7 +11,6 @@ body {
     margin: 0 0 0 0;
     background-image: repeating-linear-gradient(-45deg, #303841 5%, #203841 10%);
     background-attachment: fixed;
-    
 }
 
 h {
@@ -16,11 +20,12 @@ h {
 
 .navbar {
     margin-bottom: 0;
-    color: #EEEEEE;
     position: sticky;
     top: 0;
     display: flex;
     width: 100%;
+    color: #EEEEEE;
+    z-index: 9;
 }
 
 .nav-item-container {
@@ -80,11 +85,12 @@ section {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    /* 
+}
+
+section:not(.navbar) {
     animation-name: slide-up; 
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    */
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
 }
 
 h1, h2 {
