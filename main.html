@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- navbar für navigation -->
     <section class="navbar">
         <a href="#" class="nav-item nav-block">
             <div class="nav-item-container"><strong>Home</strong></div>
@@ -26,12 +27,14 @@
         </a>
         <div class="nav-block nav-block-fill"></div>
     </section>
+    <!-- bereich, der nachher unabhängig vom Hintergrund den Haputteil der Websiete enthält -->
     <div id="main">
-        
+        <!-- unterabteil des Hauptteils, der vor allem die Überschrift enthät -->
         <section class="header">
             <h1 class="heading">Tom Roth</h1>
             <p><em>A portfolio website</em></p>
 
+            <!-- nach jeder section kommt 1 strich, der sie "beendet" -->
             <hr>
 
         </section>
@@ -40,13 +43,17 @@
 
         <section id="profile">
             <h2>Profile</h2>
+            <!-- profilbild -->
             <div id="profile-picture-container" class="profile-child-container">
                 <img id="profile-picture" src="images/Tom.png" alt="">
             </div>
+            <!-- tabelle mit allgemeinen Infos -->
             <div id="profile-table-container" class="profile-child-container">
                 <table id="profile-table">
                     <tbody>
+                        <!-- zeile einer Tabelle (tr)-->
                         <tr>
+                            <!-- jede Info in einer zeile als einzelenes td (table-data)-->
                             <td>Date of Birth:</td>
                             <td>22.09.2006</td>
                         </tr>
@@ -70,9 +77,10 @@
         </section>
 
         
-
+        <!-- weiterer unterabteil des heauptteils-->
         <section id="hobbies">
             <h2>Hobbies</h2>
+            <!-- liste von hobbies-->
             <ul class="hobbies">
                 <li class="hobby">Coding</li>
                 <li class="hobby">Playing the flugelhorn</li>
@@ -87,6 +95,7 @@
         
         <section id="projects">
             <h1>Coding Projects</h1>
+            <!-- liste an coding projecten mit links-->
             <ul class="project-list">
                 <li class="project-list-item">
                     <a href="https://github.com/rothtom/sorting/">Sorting Algorithm Visualisation</a>
