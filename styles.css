@@ -13,9 +13,16 @@ body {
     background-attachment: fixed;
 }
 
-h {
+h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
     font-family: inherit;
     font-size: xx-large;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 3px;
 }
 
 .navbar {
@@ -56,6 +63,10 @@ h {
     text-align: center;
 }
 
+#contact-nav {
+    border-left: 1px solid black;
+}
+
 .nav-link  {
     text-decoration: none;
 }
@@ -68,6 +79,7 @@ h {
 
 #main {
     max-width: 50%;
+    min-width: 575px;
     margin: 0 auto;
     padding: 10px 0 3px 0;
     background-color: #EEEEEE;
