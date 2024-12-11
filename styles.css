@@ -180,6 +180,12 @@ ul li {
     padding: 5px 0 5px 0 ;
 }
 
+.project-list img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 15px;
+}
+
 #cv-table td {
     vertical-align: top;
     padding-bottom: 5px;
