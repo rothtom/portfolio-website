@@ -93,7 +93,7 @@ h2 {
 #main {
     max-width: 50%;
     min-width: 575px;
-    margin: 0 auto;
+    margin: 0 auto 3em;
     padding: 10px 0 3px 0;
     background-color: #EEEEEE;
 }
@@ -125,10 +125,6 @@ h1, h2 {
 .header p {
     font-size: 14px;
     margin-top: 0;
-}
-
-#profile {
-
 }
 
 .profile-child-container {
@@ -206,6 +202,11 @@ ul li {
     width: 30px;
     border-radius: 50%;
     transition: 0.1s;
+}
+
+.contact-links-div p {
+    margin: 0 0 0 0;
+    font-size: 14px;;
 }
 
 .contact-links-div img:hover {
